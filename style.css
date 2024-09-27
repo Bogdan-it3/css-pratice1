@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+    .body {
+        height: 100vh;
+        box-sizing: border-box;
+        background: linear-gradient(to right, #f85a3a 40%, white 40%);
+    }   
+    .header {
+        background-color: black;
+        height: 30vh;   
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .zIndex{
+        font-size: 50px;
+        z-index: 10000;
+    }
+    .main {
+        background-color: darkorange;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer {
+        background-color: azure;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .text{
+        font-size: 30px;
+        color: darkblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
