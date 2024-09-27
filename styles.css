@@ -10,7 +10,7 @@
         background: linear-gradient(to right, #f85a3a 40%, white 40%);
     }   
     .header {
-        background-color: black;
+        background-color: rgb(88, 245, 74);
         height: 30vh;   
         display: flex;
         align-items: center;
@@ -36,6 +36,6 @@
     }
     .text{
         font-size: 30px;
-        color: darkblue;
+        color: rgb(40, 185, 213);
         font-family: 'Times New Roman', Times, serif;
     }
